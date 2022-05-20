@@ -1,0 +1,64 @@
+/*------------------------------------COMMON STYLES----------------------------*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rock Salt', cursive;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    padding: 1EM;
+}
+/*-------------------------------------- TYPO STYLES-----------------------------*/
+
+h1{
+    color: #ffffff;
+}
+
+p{
+    color: #fffb00;
+}
+/*----------------------------------- KEYS STYLES--------------------------------*/
+
+.keys-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.key{
+    background-color: #00000049;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.07s;
+}
+
+.mask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.playing{
+    border: 5px solid #fffb00;
+    border-radius: 10px;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 22px 5px #fffb00; 
+    box-shadow: 0px 0px 22px 5px #fffb00;
+    background-color: #ffffffcb;
+}
+
+
