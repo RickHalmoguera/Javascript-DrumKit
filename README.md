@@ -14,9 +14,9 @@
   
   <h1>Recursos utilizados</h1>
   <ul>
-      <li><a href="https://www.w3schools.com/jsref/obj_keyboardevent.asp">HTML DOM KeyboardEvent</a></li>
+      <li><p><a href="https://www.w3schools.com/jsref/obj_keyboardevent.asp">HTML DOM KeyboardEvent</a></p></li>
     <p>Para la documentación de como utilizar el KEYPRESS.</p>
-    <li><a href="https://javascript30.com/">JavaScript 30</a></li>
+    <li><p><a href="https://javascript30.com/">JavaScript 30</a></p></li>
     <p>Página Web donde podrás conseguir 30 proyectos para practicar tus conocimientos de Js. Muy recomendado!</p>
   </ul>
   <h1>Código</h1>
